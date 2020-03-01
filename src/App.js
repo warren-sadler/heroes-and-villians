@@ -1,6 +1,9 @@
 import React from "react";
 import InputComponent from "./components/input";
-import data from "./data/heroes-and-villains.json";
+import useHeroesAndVillains from './hooks/useHeroesAndVillains';
+import BattleList from './components/BattleList';
+
+const { data } = useHeroesAndVillains();
 const oppositePlayers_ = [1,2,3,4];
 const heros = Object.keys(data).sort();
 const villians = heros.map(hero => data[hero])
@@ -19,6 +22,16 @@ function App() {
        {!selectedHero && <InputComponent list={heros} select={setSelectedHero}/>}
        <h2>{selectedVillian || "Select a villian"}</h2>
        {!selectedVillian && <InputComponent list={villians} select={setSelectedVillian}/>}
+
+       <hr />
+      <div className="flex">
+        <div className="p-4">
+          <BattleList heroName={"Captain America"} data={data} />
+        </div>
+        <div className="p-4">
+          <BattleList villainName={"Sandman"} data={data} />
+        </div>
+      </div>
      </main>
     </div>
   );
