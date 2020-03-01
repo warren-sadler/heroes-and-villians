@@ -1,11 +1,21 @@
 import React from "react";
+import BattleList from "./components/BattleList";
+import useHeroesAndVillains from "./hooks/useHeroesAndVillains";
 
 function App() {
+  const { data } = useHeroesAndVillains();
   return (
-    <div className="w-screen h-screen bg-blue-400 flex items-center justify-center">
-      <h3 className="text-white font-bold text-xl">
-        Hello World From Tailwind
-      </h3>
+    <div>
+      <h3>Heroes And Villains</h3>
+      <hr />
+      <div className="flex">
+        <div className="p-4">
+          <BattleList heroName={"Captain America"} data={data} />
+        </div>
+        <div className="p-4">
+          <BattleList villainName={"Sandman"} data={data} />
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,11 +1,11 @@
-import useHerosAndVillians from "./useHeroesAndVillians";
+import useHerosAndVillains from "./useHeroesAndVillains";
 
-describe("useHerosAndVillians hook", () => {
+describe("useHerosAndVillains hook", () => {
   const {
     hasHeroFoughtVillain,
     getVillainsByHero,
     getHeroesByVillain
-  } = useHerosAndVillians();
+  } = useHerosAndVillains();
   test("getVillainsByHero", () => {
     expect(getVillainsByHero("Spiderman").length).toBe(5);
   });
