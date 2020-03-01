@@ -1,8 +1,12 @@
 import useHerosAndVillians from "./useHeroesAndVillians";
 
 describe("useHerosAndVillians hook", () => {
-  const data = useHerosAndVillians();
-  test("fetching heroes data from hook", () => {
-    expect(data).toBeDefined();
+  const { hasHeroFoughtVillain, getVillainsByHero } = useHerosAndVillians();
+  test("getVillainsByHero", () => {
+    expect(getVillainsByHero("Spiderman").length).toBe(5);
+  });
+
+  test("hasHeroFoughtVillain", () => {
+    expect(hasHeroFoughtVillain("Spiderman", "Venom")).toBe(true);
   });
 });
