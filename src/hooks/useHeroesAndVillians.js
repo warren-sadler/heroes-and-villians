@@ -26,7 +26,11 @@ const useHeroesAndVillains = () => {
      *
      * @param {string} villain
      */
-    getHerosByVillain(villain) {},
+    getHeroesByVillain(villain) {
+      return Object.keys(data).filter(hero => {
+        return data[hero].some(v => v.name === villain);
+      });
+    },
     /**
      * give list of heroes in order of number of encounters
      * include number of villain wins (numberFights - numberWins)
