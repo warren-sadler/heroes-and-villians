@@ -34,7 +34,10 @@
   border-radius: 4px;
   background: white;
   margin: auto;
+  padding: 24px;
 }
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -42,4 +45,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+input {
+  width: 200px;
+  background: gray;
+  display: block;
+}
+
+.dropdown {
+  width: 200px;
+  
+  box-shadow: 0 0 4px rgba(0,0,0,.3);
+}
+-
+.fullwidth {
+  width: 100%;
 }
