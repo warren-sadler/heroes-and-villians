@@ -1,0 +1,162 @@
+{
+    "Spiderman": [
+      {
+        "name": "Venom",
+        "lastFight": "2007-5-4",
+        "numberFights": 100,
+        "numberWins": 89
+      },
+      {
+        "name": "Sandman",
+        "lastFight": "2017-6-14",
+        "numberFights": 90,
+        "numberWins": 90
+      },
+      {
+        "name": "Kingpin",
+        "lastFight": "2018-2-6",
+        "numberFights": 20,
+        "numberWins": 18
+      },
+      {
+        "name": "Hobgoblin",
+        "lastFight": "2018-6-6",
+        "numberFights": 222,
+        "numberWins": 189
+      },
+      {
+        "name": "Shocker",
+        "lastFight": "2013-11-20",
+        "numberFights": 76,
+        "numberWins": 63
+      }
+    ],
+    "DareDevil": [
+        {
+            "name": "Bulls-eye",
+            "lastFight": "2017-8-24",
+            "numberFights": 200,
+            "numberWins": 189
+          },
+        {
+            "name": "Sandman",
+            "lastFight": "2017-6-14",
+            "numberFights": 90,
+            "numberWins": 90
+          },
+        {
+            "name": "Kingpin",
+            "lastFight": "2018-5-16",
+            "numberFights": 340,
+            "numberWins": 318
+          },
+        {
+            "name": "Red Skull",
+            "lastFight": "2016-12-26",
+            "numberFights": 12,
+            "numberWins": 9
+          },
+        {
+            "name": "Shocker",
+            "lastFight": "2014-10-2",
+            "numberFights": 32,
+            "numberWins": 30
+          }
+    ],
+    "Captain Marvel": [
+        {
+            "name": "Bulls-eye",
+            "lastFight": "2017-8-24",
+            "numberFights": 200,
+            "numberWins": 189
+          },
+        {
+            "name": "Capt Nazi",
+            "lastFight": "2003-6-4",
+            "numberFights": 190,
+            "numberWins": 175
+          },
+        {
+            "name": "Black Adam",
+            "lastFight": "2018-7-24",
+            "numberFights": 246,
+            "numberWins": 238
+          },
+        {
+            "name": "Red Skull",
+            "lastFight": "2016-12-26",
+            "numberFights": 12,
+            "numberWins": 9
+          },
+        {
+            "name": "Hydra",
+            "lastFight": "2017-10-22",
+            "numberFights": 132,
+            "numberWins": 128
+          }
+    ],
+    "Captain America": [
+        {
+            "name": "Kingpin",
+            "lastFight": "2017-2-14",
+            "numberFights": 147,
+            "numberWins": 139
+          },
+        {
+            "name": "Capt Nazi",
+            "lastFight": "2013-9-24",
+            "numberFights": 232,
+            "numberWins": 175
+          },
+        {
+            "name": "Black Adam",
+            "lastFight": "2015-4-12",
+            "numberFights": 246,
+            "numberWins": 238
+          },
+        {
+            "name": "Red Skull",
+            "lastFight": "1946-2-26",
+            "numberFights": 412,
+            "numberWins": 407
+          },
+        {
+            "name": "Hydra",
+            "lastFight": "2018-10-22",
+            "numberFights": 132,
+            "numberWins": 128
+          }
+    ],
+    "Superman": [
+        {
+            "name": "Lex Luthor",
+            "lastFight": "2018-04-05",
+            "numberFights": 200,
+            "numberWins": 198
+          },
+          {
+            "name": "Doomsday",
+            "lastFight": "1992-11-15",
+            "numberFights": 1,
+            "numberWins": 0
+          },
+          {
+            "name": "Bane",
+            "lastFight": "2017-6-12",
+            "numberFights": 78,
+            "numberWins": 72
+          },
+          {
+            "name": "Killer Croc",
+            "lastFight": "2017-3-21",
+            "numberFights": 123,
+            "numberWins": 108
+          },
+          {
+            "name": "Ares",
+            "lastFight": "2015-5-30",
+            "numberFights": 89,
+            "numberWins": 78
+          }
+    ]
+}
