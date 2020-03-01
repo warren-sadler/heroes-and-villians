@@ -1,8 +1,8 @@
 import useHerosAndVillians from "./useHeroesAndVillians";
 
 describe("useHerosAndVillians hook", () => {
-  const { heroWins } = useHerosAndVillians();
+  const data = useHerosAndVillians();
   test("fetching heroes data from hook", () => {
-    expect(heroWins).toBeDefined();
+    expect(data).toBeDefined();
   });
 });

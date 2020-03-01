@@ -1,7 +1,7 @@
+import data from "../data/heroes-and-villians.json";
+
 const useHeroesAndVillians = () => {
-  return {
-    heroWins: []
-  };
+  return data;
 };
 
 export default useHeroesAndVillians;
